@@ -15,7 +15,7 @@
   (add-to-list 'exec-path path))
 
 ;; mail address
-(setq user-mail-address "nagata@handlena.me")
+(setq user-mail-address "tokyoincidents.g@gmail.com")
 
 ;; meta & super key
 (setq ns-command-modifier (quote meta))
@@ -51,3 +51,11 @@
 
 ;; set time local
 (setq system-time-locale "C")
+
+;; fullscreen
+(defun toggle-fullscreen ()
+  (interactive)
+  (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
+                                           nil
+                                           'fullboth)))
+(global-set-key [(meta return)] 'toggle-fullscreen)
