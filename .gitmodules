@@ -1,0 +1,12 @@
+[submodule "dot.emacs.d/site-lisp/apel"]
+	path = dot.emacs.d/site-lisp/apel
+	url = https://github.com/wanderlust/apel.git
+[submodule "dot.emacs.d/site-lisp/js-doc"]
+	path = dot.emacs.d/site-lisp/js-doc
+	url = https://github.com/mooz/js-doc.git
+[submodule "dot.emacs.d/site-lisp/js2-mode"]
+	path = dot.emacs.d/site-lisp/js2-mode
+	url = https://github.com/mooz/js2-mode.git
+[submodule "dot.emacs.d/site-lisp/magit"]
+	path = dot.emacs.d/site-lisp/magit
+	url = https://github.com/magit/magit.git

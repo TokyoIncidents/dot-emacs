@@ -1,4 +1,6 @@
 *~
+*.elc
+#*#
 .ap-project-files
 dot.emacs.d/ac-comphist.dat
 dot.emacs.d/anything-c-adaptive-history
@@ -9,6 +11,11 @@ dot.emacs.d/bookmarks
 dot.emacs.d/eshell
 dot.emacs.d/inits/00_private.el
 dot.emacs.d/shellenv.el
-dot.emacs.d/site-lisp
 dot.emacs.d/tags
 dot.emacs.d/tramp
+dot.emacs.d/site-lisp/auto-install.el
+dot.emacs.d/site-lisp/elscreen.el
+dot.emacs.d/site-lisp/init-loader.el
+dot.emacs.d/site-lisp/install-elisp.el
+dot.emacs.d/site-lisp/mmm-mode/*
+dot.emacs.d/site-lisp/org-mode/*
