@@ -1,5 +1,5 @@
 *~
-*.elc
+*elc
 #*#
 .ap-project-files
 dot.emacs.d/ac-comphist.dat
@@ -17,9 +17,10 @@ dot.emacs.d/site-lisp/auto-install.el
 dot.emacs.d/site-lisp/elscreen.el
 dot.emacs.d/site-lisp/init-loader.el
 dot.emacs.d/site-lisp/install-elisp.el
-dot.emacs.d/site-lisp/ihtml-helper-mode/*
+dot.emacs.d/site-lisp/html-helper-mode/*
 dot.emacs.d/site-lisp/mmm-mode/*
 dot.emacs.d/site-lisp/org-mode/*
+dot.emacs.d/site-lisp/ruby-mode/*
 dot.emacs.d/site-lisp/rinari/*
 dot.emacs.d/site-lisp/rhtml/*
 dot.emacs.d/site-lisp/yasnippets-rails/*

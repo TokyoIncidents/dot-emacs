@@ -15,6 +15,7 @@
 ;;(add-to-list 'load-path "~/.emacs.d/site-lisp/riece/lisp")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/yasnippet")
 ;;(add-to-list 'load-path "~/.emacs.d/site-lisp/yatex/")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/ruby-mode")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/rinari")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/rhtml")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/yasnippets-rails")
