@@ -18,6 +18,7 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp/ruby-mode")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/rinari")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/rhtml")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/rcodetools-0.8.5.0")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/yasnippets-rails")
 
 (require 'init-loader)

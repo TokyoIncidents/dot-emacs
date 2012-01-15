@@ -1,3 +1,4 @@
+;; http://d.hatena.ne.jp/authorNari/20090611/1244732270
 ;; rinari-extend-by-emacs-rails.el
 (defvar rails-ri-command "fri"
   "ri command"

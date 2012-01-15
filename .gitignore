@@ -17,10 +17,12 @@ dot.emacs.d/site-lisp/auto-install.el
 dot.emacs.d/site-lisp/elscreen.el
 dot.emacs.d/site-lisp/init-loader.el
 dot.emacs.d/site-lisp/install-elisp.el
+dot.emacs.d/site-lisp/cperl-mode/*
 dot.emacs.d/site-lisp/html-helper-mode/*
 dot.emacs.d/site-lisp/mmm-mode/*
 dot.emacs.d/site-lisp/org-mode/*
 dot.emacs.d/site-lisp/ruby-mode/*
 dot.emacs.d/site-lisp/rinari/*
 dot.emacs.d/site-lisp/rhtml/*
-dot.emacs.d/site-lisp/yasnippets-rails/*
+dot.emacs.d/site-lisp/rcodetools-0.8.5.0
+dot.emacs.d/assets/yasnippets-rails/*

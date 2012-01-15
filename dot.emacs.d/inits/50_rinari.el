@@ -21,6 +21,7 @@
 (add-hook 'ruby-mode-hook 'ruby-mode-hooks-rinari-extend)
 (add-hook 'rinari-mode-hook 'rinari-mode-hooks-rinari-extend)
 
+;; http://d.hatena.ne.jp/gan2/20080702/1214972962
 ;; flymake for ruby
 (require 'flymake)
 ;; Invoke ruby with '-c' to get syntax checking

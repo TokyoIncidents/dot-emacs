@@ -16,9 +16,12 @@
 [submodule "dot.emacs.d/site-lisp/rhtml"]
 	path = dot.emacs.d/site-lisp/rhtml
 	url = https://github.com/eschulte/rhtml.git
-[submodule "dot.emacs.d/site-lisp/yasnippets-rails"]
-	path = dot.emacs.d/site-lisp/yasnippets-rails
-	url = https://github.com/eschulte/yasnippets-rails.git
 [submodule "dot.emacs.d/site-lisp/yasnippet"]
 	path = dot.emacs.d/site-lisp/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule "dot.emacs.d/site-lisp/cperl-mode"]
+	path = dot.emacs.d/site-lisp/cperl-mode
+	url = https://github.com/jrockway/cperl-mode.git
+[submodule "dot.emacs.d/assets/yasnippets-rails"]
+	path = dot.emacs.d/assets/yasnippets-rails
+	url = https://github.com/eschulte/yasnippets-rails.git

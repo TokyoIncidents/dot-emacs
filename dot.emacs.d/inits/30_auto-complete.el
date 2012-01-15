@@ -106,3 +106,13 @@
 (add-hook 'c++-mode-hook
           (lambda ()
             (add-to-list 'ac-sources 'ac-source-clang)))
+
+;; for ruby-mode
+;; (install-elisp "http://www.cx4a.org/pub/auto-complete-ruby.el")
+;; http://d.hatena.ne.jp/tkng/20090207/1234020003
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (require 'rcodetools)
+            (require 'auto-complete-ruby)
+            (make-local-variable 'ac-omni-completion-sources)
+            (setq ac-omni-completion-sources '(("\\.\\=" . (ac-source-rcodetools))))))
