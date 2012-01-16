@@ -3,12 +3,15 @@
 (setq rinari-minor-mode-prefixes (list "'"))
 (require 'rinari)
 
-;;; rhtml-mode
+;; http://d.hatena.ne.jp/a666666/20110715/1310832276
+;; rhtml-mode
 (require 'rhtml-mode)
+(add-to-list 'auto-mode-alist '("\\.rhtml$" . rhtml-mode))
 (add-hook 'rhtml-mode-hook
     (lambda () (rinari-launch)))
 
-;;.emacs
+;; http://d.hatena.ne.jp/authorNari/20090611/1244732270
+;; .emacs
 (setq rails-tags-dirs '("app" "lib" "test" "db" "vendor"))
 (require 'rinari-extend-by-emacs-rails)
 (defun ruby-mode-hooks-rinari-extend ()

@@ -52,3 +52,10 @@
 ;; set time local
 (setq system-time-locale "C")
 
+;; change default grep command to ack
+;; http://d.hatena.ne.jp/sugyan/20100604/1275587743
+(grep-apply-setting 'grep-command "ack --nogroup")
+
+;; Displays the time in the mode line
+(setq display-time-format "%Y-%m-%d (%a) %H:%M")
+(display-time)
