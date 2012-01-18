@@ -114,3 +114,5 @@
 
 (defun ap:project-files-p ()
   (file-exists-p (ap:get-project-root-path)))
+
+(require 'anything-grep)
