@@ -1,7 +1,7 @@
 ;; window settings
 (if window-system
     (progn
-      (set-frame-parameter nil 'alpha 90)
+      (set-frame-parameter nil 'alpha 85)
       (tool-bar-mode nil)
       (set-scroll-bar-mode nil)
       (setq line-spacing 0.2)
