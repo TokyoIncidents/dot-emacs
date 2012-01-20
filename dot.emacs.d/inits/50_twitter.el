@@ -19,3 +19,12 @@
   (define-key twittering-mode-map (kbd "F") 'twittering-favorite))
 
 (add-hook 'twittering-mode-hook 'twittering-mode-hook-func)
+
+(setq twittering-initial-timeline-spec-string
+      '(":home"
+        "kysnm/info"
+        "kysnm/perl"
+        "kysnm/ruby"
+        "kysnm/python"
+        "kysnm/html5"
+        "kysnm/nodefest"))
