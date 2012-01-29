@@ -41,6 +41,7 @@
 (add-hook
  'ruby-mode-hook
  '(lambda ()
+    (setq tab-width 2)
     ;; Don't want flymake mode for ruby regions in rhtml files
     (if (not (null buffer-file-name)) (flymake-mode))
     ;; エラー行で C-c d するとエラーの内容をミニバッファで表示する
