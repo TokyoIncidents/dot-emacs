@@ -15,6 +15,12 @@
                           'japanese-jisx0212
                           (font-spec :family "Migu 1M" :size 14))
         (set-fontset-font (frame-parameter nil 'font)
+                          'japanese-jisx0213-1
+                          (font-spec :family "Migu 1M" :size 14))
+        (set-fontset-font (frame-parameter nil 'font)
+                          'japanese-jisx0213-2
+                          (font-spec :family "Migu 1M" :size 14))
+        (set-fontset-font (frame-parameter nil 'font)
                           'katakana-jisx0201
                           (font-spec :family "Migu 1M" :size 14)))
       (setq ns-pop-up-frames nil)))
