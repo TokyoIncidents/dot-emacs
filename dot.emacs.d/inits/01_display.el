@@ -7,22 +7,28 @@
       (setq line-spacing 0.2)
       (when (>= emacs-major-version 23)
         (tool-bar-mode nil)
-        (set-frame-font "Migu-1M-12")
+        (set-frame-font "Ricty-12")
         (set-fontset-font (frame-parameter nil 'font)
                           'japanese-jisx0208
-                          (font-spec :family "Migu 1M" :size 14))
+                          (font-spec :family "Ricty" :size 14))
         (set-fontset-font (frame-parameter nil 'font)
                           'japanese-jisx0212
-                          (font-spec :family "Migu 1M" :size 14))
+                          (font-spec :family "Ricty" :size 14))
         (set-fontset-font (frame-parameter nil 'font)
                           'japanese-jisx0213-1
-                          (font-spec :family "Migu 1M" :size 14))
+                          (font-spec :family "Ricty" :size 14))
         (set-fontset-font (frame-parameter nil 'font)
                           'japanese-jisx0213-2
-                          (font-spec :family "Migu 1M" :size 14))
+                          (font-spec :family "Ricty" :size 14))
         (set-fontset-font (frame-parameter nil 'font)
                           'katakana-jisx0201
-                          (font-spec :family "Migu 1M" :size 14)))
+                          (font-spec :family "Ricty" :size 14))
+        (set-fontset-font (frame-parameter nil 'font)
+                          '(#x0080 . #x024F)
+                          (font-spec :family "Ricty" :size 14))
+        (set-fontset-font (frame-parameter nil 'font)
+                          '(#x0370 . #x03FF)
+                          (font-spec :family "Ricty" :size 14)))
       (setq ns-pop-up-frames nil)))
 
 ;; color settings
