@@ -7,7 +7,7 @@
       (setq line-spacing 0.2)
       (when (>= emacs-major-version 23)
         (tool-bar-mode nil)
-        (set-frame-font "Ricty-12")
+        (set-frame-font "Ricty-14")
         (set-fontset-font (frame-parameter nil 'font)
                           'japanese-jisx0208
                           (font-spec :family "Ricty" :size 14))
