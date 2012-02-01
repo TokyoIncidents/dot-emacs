@@ -9,7 +9,7 @@
 
 ;; http://masutaka.net/chalow/2009-06-07-5.html
 ;; (setq twittering-icon-mode t)
-(setq twittering-jojo-mode t)
+;; (setq twittering-jojo-mode t)
 (defun twittering-mode-hook-func ()
   (set-face-bold-p 'twittering-username-face t)
   (set-face-foreground 'twittering-username-face "DeepSkyBlue3")
