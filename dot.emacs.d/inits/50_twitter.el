@@ -9,7 +9,7 @@
 
 ;; http://masutaka.net/chalow/2009-06-07-5.html
 ;; (setq twittering-icon-mode t)
-(setq twittering-jojo-mode t)
+;; (setq twittering-jojo-mode t)
 (setq twittering-status-format "%i %s/%S,  %C %@:\n%FILL[  ]{%T // from %f%L%r%R}\n ")
 (defun twittering-mode-hook-func ()
   (set-face-bold-p 'twittering-username-face t)
