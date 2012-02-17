@@ -54,7 +54,7 @@
 
 ;; change default grep command to ack
 ;; https://github.com/sugyan/dotfiles/.emacs.d/inits/03-editing.el
-(setq grep-command "ack --nogroup ")
+;; (setq grep-command "ack --nogroup ")
 
 ;; Displays the time in the mode line
 (setq display-time-format "%Y-%m-%d (%a) %H:%M")

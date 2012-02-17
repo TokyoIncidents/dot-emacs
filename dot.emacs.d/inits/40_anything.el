@@ -116,3 +116,8 @@
   (file-exists-p (ap:get-project-root-path)))
 
 (require 'anything-grep)
+
+;; (install-elisp-from-emacswiki "anything-ack.el")
+(require 'anything-ack)
+(setq anything-ack-command "ack --nocolor --nogroup")
+(setq anything-ack-guess-type nil)
