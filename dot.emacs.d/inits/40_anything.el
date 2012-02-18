@@ -1,7 +1,6 @@
 ;; INSTALL
 ;; (auto-install-batch "anithing")
 ;; (install-elisp "http://svn.coderepos.org/share/lang/elisp/anything-c-moccur/trunk/anything-c-moccur.el")
-;; (install-elisp-from-emacswiki "anything-etags.el")
 ;; (install-elisp-from-emacswiki "anything-gtags.el")
 
 (require 'anything-config)
@@ -35,7 +34,6 @@
     (anything '(anything-c-source-emacs-commands))))
 
 ;; tag jump
-(require 'anything-etags)
 (require 'anything-gtags)
 (define-key global-map (kbd "C-x t")
   (lambda ()
