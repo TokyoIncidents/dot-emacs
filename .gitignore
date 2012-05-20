@@ -15,6 +15,7 @@ dot.emacs.d/tags
 dot.emacs.d/tramp
 dot.emacs.d/site-lisp/auto-install.el
 dot.emacs.d/site-lisp/elscreen.el
+dot.emacs.d/site-lisp/gtags.el
 dot.emacs.d/site-lisp/init-loader.el
 dot.emacs.d/site-lisp/install-elisp.el
 dot.emacs.d/site-lisp/cperl-mode/*
